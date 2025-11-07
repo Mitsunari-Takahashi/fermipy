@@ -1,4 +1,4 @@
-name: fermipy
+name: fermipy_calonly
 channels:
   - fermi
   - conda-forge
@@ -13,3 +13,4 @@ dependencies:
   - astropy-healpix
   - gammapy>=1.0
   - fermitools>=2.2.0
+  - uproot

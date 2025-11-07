@@ -3,7 +3,9 @@ channels:
   - fermi
   - conda-forge
 dependencies:
-  - python
+  - python=3.9
+  - fermitools=2.2.*
+  - f2c>1.0
   - pyyaml
   - numpy>=1.16
   - scipy<1.14
@@ -12,5 +14,4 @@ dependencies:
   - healpy
   - astropy-healpix
   - gammapy>=1.0
-  - fermitools>=2.2.0
   - uproot
